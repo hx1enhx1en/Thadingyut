@@ -1,0 +1,111 @@
+*{
+    margin:3;
+    padding:9;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(160, 134, 125);
+    color:rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align:center ;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow:6px 7px 15px;
+    
+}
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+nav a{
+    text-decoration:underline;
+    color:#463c3c;
+    margin: 15px;
+    font-weight: bold;
+    transition: color 0.35 ease-in-out, transform 0.35 ease-in-out;
+    
+}
+nav a:hover{
+    color: antiquewhite;
+    transform: scale(1.1);
+}
+/* Section&Text */
+Section{
+    text-align: center;
+    padding: 20px;
+}
+h1:hover{
+    color:#facc15;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+p:hover{
+    color:rgb(255, 255, 255)
+}
+p{
+    font-size: 30px;
+    margin: 15px auto;
+    max-width: 900px;
+    text-align: center;
+    line-height: 40px;
+    transition: transform 0.35 ease-in-out, color 0.35 ease-in-out;
+}
+.highlight{
+    color: #df9d9d;
+    font-weight: bold;
+    background-color: rgb(255, 219, 247);
+    padding: 3px 6px;
+    border: 1px solid #df9d9d
+    border-radius 6px;
+}
+img{ 
+    display:block;
+    margin:20px auto;
+    border-radius: 12 px;
+    max-width: 90%;
+    box-shadow: 0px 4px 15px;
+    transition: transform 0.35 ease-in-out;
+    width: 75%;
+}
+img:hover{
+    transform:scale(1);
+}
+table{
+    width: 80%;
+    border: 1px solid #ffcff3;
+    margin: 20px auto;
+    border-collapse: collapse;
+    max-width: 700px;
+    text-align: center;
+    font-size: 16px;
+    background:#db93c9;
+    box-shadow: 0px 2px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+h2{
+    text-align: center;
+}
+tr:hover{
+    background-color: rgb(241, 189, 235);
+    color:rgb(156, 74, 74);
+}
+footer:hover{
+    background-color:#ff9d9d
+}
+footer{
+    text-align: center;
+}
+th,td{
+    padding:12px 20px;
+    border-bottom: 2px solid #ddd;
+}
+th{
+    background-color: #facc15;
+    color: #92400e;
+    font-weight: bold;
+}
+
